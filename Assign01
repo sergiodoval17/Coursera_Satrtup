@@ -2,5 +2,5 @@
 var fs = require ('fs');
 var outfile = "hello.txt";
 var out = "A Startup is a business built to grow rapdly.\n";
-fs.writeFileSync(outfile, ou);
+fs.writeFileSync(outfile, out);
 console.log("Script: " + __filename + "nWrote: " + "To: " + outfile);
